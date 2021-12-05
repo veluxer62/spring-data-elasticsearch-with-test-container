@@ -1,0 +1,62 @@
+{
+  "properties": {
+    "category": {
+      "type": "text",
+      "fields": {
+        "ngram": {
+          "type": "text",
+          "analyzer": "korean_ngram"
+        }
+      },
+      "analyzer": "korean"
+    },
+    "created_at": {
+      "type": "date"
+    },
+    "id": {
+      "type": "keyword"
+    },
+    "name": {
+      "type": "text",
+      "fields": {
+        "ngram": {
+          "type": "text",
+          "analyzer": "korean_ngram"
+        }
+      },
+      "analyzer": "korean"
+    },
+    "standard": {
+      "type": "text",
+      "fields": {
+        "ngram": {
+          "type": "text",
+          "analyzer": "korean_ngram"
+        }
+      },
+      "analyzer": "korean"
+    },
+    "unit": {
+      "type": "text",
+      "fields": {
+        "ngram": {
+          "type": "text",
+          "analyzer": "korean_ngram"
+        }
+      },
+      "analyzer": "korean"
+    },
+    "category_keyword": {
+      "type": "keyword"
+    },
+    "name_keyword": {
+      "type": "keyword"
+    },
+    "standard_keyword": {
+      "type": "keyword"
+    },
+    "unit_keyword": {
+      "type": "keyword"
+    }
+  }
+}
